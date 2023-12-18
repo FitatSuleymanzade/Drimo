@@ -1,0 +1,283 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header .container .collapseDiv {
+  justify-content: flex-end;
+}
+header .container .collapseDiv .clr {
+  color: #88BFEA;
+}
+
+#firstsection {
+  background-image: url(/assets/img/server-banner.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+#firstsection .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#firstsection .row .specialtext {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#firstsection .row .specialtext .special {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+}
+#firstsection .row .specialtext .special h3 {
+  height: 80px;
+  width: 50%;
+  padding-top: 25px;
+  text-align: center;
+  background-color: #FC6428;
+  color: white;
+}
+#firstsection .row .specialtext h1 {
+  padding-top: 20px;
+  color: white;
+  font-size: 50px;
+  font-weight: 400;
+}
+#firstsection .row .specialtext h2 {
+  padding-top: 10px;
+  color: white;
+  font-weight: 300;
+}
+#firstsection .row .specialtext p {
+  padding-top: 20px;
+  color: white;
+}
+#firstsection .row .specialtext button {
+  width: 30%;
+  height: 50px;
+  background-color: #FC6428;
+  border: none;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  font-weight: 500;
+}
+#firstsection .row .specialimg img {
+  max-width: 100%;
+  padding-top: 30px;
+  margin-top: 30px;
+}
+#firstsection .summo {
+  width: 60%;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px;
+}
+#firstsection .summo p {
+  padding-top: 30px;
+}
+
+#apisection .container .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#apisection .container .row .buttons {
+  margin-bottom: 30px;
+}
+#apisection .container .row .buttons button {
+  font-size: 15px;
+  background-color: #26B7E7;
+  color: white;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row .buttons button a i {
+  color: white;
+}
+#apisection .container .row .buttons button a i:hover {
+  color: #44a1df;
+}
+#apisection .container .row .buttons button:hover {
+  background-color: white;
+  color: #26B7E7;
+  transition: 0.5s;
+}
+#apisection .container .row #apidiv {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 5px;
+  border-radius: 10px;
+}
+#apisection .container .row #apidiv .boxDiv {
+  border: 1px solid #26B7E7;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  text-align: center;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn {
+  font-size: 15px;
+  background-color: #26B7E7;
+  color: white;
+  border-radius: 5px;
+  font-weight: bolder;
+  padding: 10px;
+  border: none;
+}
+#apisection .container .row #apidiv .boxDiv .addtobasketbtn:hover {
+  background-color: white;
+  color: #26B7E7;
+  transition: 0.5s;
+}
+
+#happysection {
+  background-color: #7DB9E8;
+}
+#happysection .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#happysection .happy {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#happysection .happy div {
+  border-top: 2px solid rgb(255, 255, 255);
+  height: 2px;
+  width: 100px;
+}
+#happysection .happy h1 {
+  color: white;
+  text-align: center;
+  font-weight: 300;
+}
+#happysection .happy span {
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: red;
+}
+#happysection .happy p {
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+#happysection .bag {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#happysection .bag p {
+  color: white;
+  font-weight: 700;
+  margin: 0;
+  font-size: 25px;
+}
+#happysection .bag span {
+  color: white;
+  font-size: 15px;
+}
+#happysection .bagicon {
+  font-size: 38px;
+  color: #7DB9E8;
+}
+#happysection .icondiv {
+  margin-top: 30px;
+}
+#happysection .icon {
+  background-color: white;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#happysection .bluebgc {
+  width: 60px;
+  height: 60px;
+  background-color: #BEDCF4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+#latestsection .row {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 30px;
+}
+#latestsection .row .photo {
+  display: flex;
+  flex-direction: column;
+}
+#latestsection .row .photo img {
+  max-width: 100%;
+}
+#latestsection .row .photo h5 {
+  padding-top: 20px;
+  color: rgb(68, 68, 68);
+  font-weight: 350;
+}
+#latestsection .row .photo p {
+  color: grey;
+  padding-top: 10px;
+}
+#latestsection .row .latest {
+  width: 600px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+#latestsection .row .latest div {
+  border-top: 2px solid black;
+  height: 2px;
+  width: 100px;
+}
+#latestsection .row .latest h1 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 300;
+}
+#latestsection .row .latest p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: grey;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: gray;
+}
+footer p {
+  color: gray;
+  margin-top: 10px;
+}
